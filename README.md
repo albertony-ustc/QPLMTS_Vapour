@@ -11,7 +11,7 @@
 ## QPLMTS_Vapour调度器
 ### 运行环境
 - 语言环境：Python3.6+
-- 依赖环境：matplotlib、sympy、pymysql、numpy、tqdm
+- 依赖环境：（Python）matplotlib、sympy、pymysql、numpy、tqdm;（Other）Daggen
 
 ### 运行方法
 - 为QPL类生成对象
@@ -60,3 +60,6 @@
 12. **更新结果模块：** UpdateResult(List=数据列表)
 13. **最早完成时间计算模块：** __ETFT(Task=任务,Edge=边缘节点)、__ETIT(Task=任务,Edge=边缘节点)、__EEAT(Edge=边缘节点)
 14. **服务成本计算模块：** __Cost(Task=任务,Edge=边缘节点)
+
+## 特别鸣谢&引用
+Daggen：一个静态DAG任务集产生器，引自https://github.com/frs69wq/daggen
